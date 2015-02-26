@@ -1,0 +1,10 @@
+<h1>I AM IN THE INDEX PAGE</h1>
+
+<%= link_to "New Resource", new_resource_path %>
+
+<% @resources.each do |resource| %>
+  <br>
+  <%= resource.name %>
+  <%= resource.organization %>
+  <%= resource.max_count %>
+<% end %>
