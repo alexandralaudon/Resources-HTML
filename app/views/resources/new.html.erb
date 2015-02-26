@@ -1,16 +1,16 @@
 
-<form METHOD="POST" class="form-inline" role="form">
+<form method="get" class="form-inline" role="form" action="/resources">
   <div class="form-group">
     <label class="sr-only" for="name">Name:</label>
-    <input type="text" class="form-control" id="name" placeholder="Enter name">
+    <input name="name" type="text" class="form-control" id="name" placeholder="Enter name">
   </div>
   <div class="form-group">
     <label class="sr-only" for="organization">Organization:</label>
-    <input type="text" class="form-control" id="organization" placeholder="Enter organization">
+    <input name="organization" type="text" class="form-control" id="organization" placeholder="Enter organization">
   </div>
   <div class="form-group">
     <label class="sr-only" for="max_count">Maximum Count:</label>
-    <input type="number" class="form-control" id="max_count" placeholder="Enter count">
+    <input name="max_count" type="number" class="form-control" id="max_count" placeholder="Enter count">
   </div>
   <div class="button">
     <button type="submit">Create Resource</button>
